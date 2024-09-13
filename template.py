@@ -7,21 +7,25 @@ project_name = "cnnClassifier"
 
 list_of_files = [
     ".github/workflows/.gitkeep",
-    f"{project_name}/__init__.py",
-    f"{project_name}/components/__init__.py",
-    f"{project_name}/utils/__init__.py",
-    f"{project_name}/config/__init__.py",
-    f"{project_name}/pipeline/__init__.py",
-    f"{project_name}/entity/__init__.py",
-    f"{project_name}/constant/__init__.py",
+    f"src/{project_name}/__init__.py",
+    f"src/{project_name}/components/__init__.py",
+    f"src/{project_name}/utils/__init__.py",
+    f"src/{project_name}/config/__init__.py",
+    f"src/{project_name}/config/configuration.py",
 
-    f"{project_name}/config/configuration.py",
+    f"src/{project_name}/pipeline/__init__.py",
+    f"src/{project_name}/entity/__init__.py",
+    f"src/{project_name}/constant/__init__.py",
+
     "config/config.yaml",  # ye folder upar wale se alag h
     "dvc.yaml",
     "params.yaml",
     "requirements.txt",
     "setup.py",
+    ".gitignore",
     "research/trials.ipynb",
+    "templates/index.html",
+    
 ]
 
 
