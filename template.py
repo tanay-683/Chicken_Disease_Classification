@@ -43,3 +43,4 @@ for file_path in list_of_files:
         logging.info(f"Empty File Created: {file_name}")
     else:
         logging.info(f"File already exists: {file_name}")
+
