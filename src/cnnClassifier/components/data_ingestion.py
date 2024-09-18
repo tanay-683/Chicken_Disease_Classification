@@ -1,6 +1,7 @@
 import os
 import urllib.request as request
 import zipfile
+from pathlib import Path
 
 from cnnClassifier import logger
 from cnnClassifier.utils.common import get_size
